@@ -2,25 +2,27 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  技术笔记: /tags/技术笔记/
+  学习笔记: /tags/学习笔记/
+  论文报告: /categories/论文报告/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
+  github: "https://github.com/AnClark"
+  #weibo: "#"
+  #rss: "#"
+  #zhihu: "#"
+  qq: "350274701"
   #weixin: "#"
-  #jianshu: "#"
+  jianshu: "https://www.jianshu.com/u/f26792aa1305"
   #douban: "#"
   #segmentfault: "#"
-  #bilibili: "#"
+  bilibili: "https://space.bilibili.com/187751236"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  mail: "mailto:clarklaw4701@qq.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/AkuraRyu"
   #linkedin: "#"
 
 rss: /atom.xml
@@ -37,7 +39,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -47,9 +49,9 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: /assets/img/reward/alipay_qrcode.jpg
 # 微信二维码图片地址
-weixin: 
+weixin: /assets/img/reward/mm_facetoface_collect_qrcode.png
 
 # 目录
 # 目录设定：0-不显示目录； 1-文章对应的md文件里有toc:true属性，才有目录； 2-所有文章均显示目录
@@ -68,7 +70,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /assets/img/avatar/satoshi_and_victini.jpg
 
 #是否开启分享
 share_jia: true
@@ -88,7 +90,7 @@ changyan_appid: false
 changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
-disqus: false
+disqus: 'anclark'
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
@@ -100,7 +102,7 @@ gitment_oauth:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  header: '#4d4d4d'
+  header: '#196F0F'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -120,11 +122,6 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  我的网易音乐人: https://music.163.com/#/artist?id=30549749
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 会写代码的音乐人 + 会编曲的程序员~
